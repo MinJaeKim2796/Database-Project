@@ -1,5 +1,5 @@
 <html>
-<head><title>KBO 선수 등록</title>
+<head><title>KBO 선수 방출</title>
 <meta http-equiv = 'content-type' content = 'text.html'; charset="utf-8"></head>
 
 <style>
@@ -32,7 +32,7 @@ tr{ height:30px; text-align:center;}
         display: inline-block;
         width: 30%;
 }
-
+<!--
 #topMenu {         
 height:30px;width: 100%;}
                 #topMenu ul li {                     
@@ -58,7 +58,7 @@ height:30px;width: 100%;}
                         background-color: #4d4d4d;
                 }
 
-
+-->
 <!--
 *{margin:0; padding:0;}
 li{list-style:none;}
@@ -94,22 +94,12 @@ nav a{color:white;}
 <br>
 
 <br><br>
-<h3>등록 선수 정보 입력</h3><br>
+<h3>방출 선수 ID 입력</h3><br>
 
-<FORM METHOD = 'post' ACTION = 'insert_result.php'>
+<FORM METHOD = 'post' ACTION = 'delete_result.php'>
 Player ID : <input type = 'text' name = 'PlayerID'><br>
-Name : <input type = 'text' name = 'Name'><br>
-Team : <input type = 'text' name = 'Team'><br>
-Position : <input type = 'text' name = 'Position'><br>
-PitchType : <input type = 'text' name = 'PitchType'><br>
-BatType : <input type = 'text' name = 'BatType'><br>
-League : <input type = 'text' name = 'League'><br>
-Payment : <input type = 'text' name = 'Payment'><br>
-Salary : <input type = 'text' name = 'Salary'><br>
-DebutYear : <input type = 'text' name = 'DebutYear'><br>
-DebutTeam : <input type = 'text' name = 'DebutTeam'><br>
 <br><br>
-<input type = 'submit' value='선수 등록'>
+<input type = 'submit' value='선수 방출'>
 </form>
 </body>
 </html>

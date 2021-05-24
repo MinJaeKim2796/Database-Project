@@ -1,5 +1,5 @@
 <html>
-<head><title>KBO 선수 등록</title>
+<head><title>선수 정보 수정</title>
 <meta http-equiv = 'content-type' content = 'text.html'; charset="utf-8"></head>
 
 <style>
@@ -94,9 +94,9 @@ nav a{color:white;}
 <br>
 
 <br><br>
-<h3>등록 선수 정보 입력</h3><br>
+<h3>선수 정보 수정</h3><br>
 
-<FORM METHOD = 'post' ACTION = 'insert_result.php'>
+<FORM METHOD = 'post' ACTION = 'update_result.php'>
 Player ID : <input type = 'text' name = 'PlayerID'><br>
 Name : <input type = 'text' name = 'Name'><br>
 Team : <input type = 'text' name = 'Team'><br>
@@ -106,10 +106,9 @@ BatType : <input type = 'text' name = 'BatType'><br>
 League : <input type = 'text' name = 'League'><br>
 Payment : <input type = 'text' name = 'Payment'><br>
 Salary : <input type = 'text' name = 'Salary'><br>
-DebutYear : <input type = 'text' name = 'DebutYear'><br>
-DebutTeam : <input type = 'text' name = 'DebutTeam'><br>
+AgencyID : <input type = 'text' name = 'AgencyID'><br>
 <br><br>
-<input type = 'submit' value='선수 등록'>
+<input type = 'submit' value='정보 수정'>
 </form>
 </body>
 </html>
